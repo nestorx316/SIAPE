@@ -50,9 +50,9 @@ Diseñar y desarrollar un prototipo de sistema inteligente que procese datos de 
 
 ## Objetivos específicos
 
-Se alinean uno a uno con los nueve objetivos específicos del profesor.
+Se alinean uno a uno con nueve objetivos específicos.
 
-| # profesor | Objetivo específico del proyecto | Dónde se cumple |
+| # | Objetivo específico del proyecto | Dónde se cumple |
 |---|---|---|
 | 1 | Identificar y analizar un problema simulado de gestión del consumo eléctrico en 10 instalaciones de Veracruz. | Este documento |
 | 2 | Generar, organizar y preparar un dataset de consumo horario (44,117 filas crudas) y un corpus de 4,000 reportes de usuarios. | `02_dataset.md`, `src/data/` |
