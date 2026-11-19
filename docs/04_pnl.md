@@ -2,7 +2,7 @@
 
 Fuentes de las cifras: `models/metricas_pnl.json`, `outputs/evidencias/pnl_entrenamiento.txt`, `pnl_ejemplos.txt`, `generacion_reportes.txt`. Código: `src/nlp/` (`procesamiento_texto.py`, `sentimiento.py`, `entidades.py`, `generacion.py`, `analizador.py`).
 
-Restricción técnica: el entorno solo permite pandas, numpy, scikit-learn, scipy, matplotlib, seaborn, joblib, Flask y la biblioteca estándar; no hay nltk ni spaCy. Por eso la tokenización, las stopwords, el stemmer, el lematizador y el NER se implementaron a mano, y solo el TF-IDF y los clasificadores usan scikit-learn. Se implementaron las **cuatro** funcionalidades de PNL (el profesor exige al menos tres): representación, sentimiento, NER y generación de lenguaje.
+Restricción técnica: el entorno solo permite pandas, numpy, scikit-learn, scipy, matplotlib, seaborn, joblib, Flask y la biblioteca estándar; no hay nltk ni spaCy. Por eso la tokenización, las stopwords, el stemmer, el lematizador y el NER se implementaron a mano, y solo el TF-IDF y los clasificadores usan scikit-learn. Se implementaron las **cuatro** funcionalidades de PNL: representación, sentimiento, NER y generación de lenguaje.
 
 ## 1. Conjunto de textos (corpus)
 
