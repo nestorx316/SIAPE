@@ -24,7 +24,7 @@ Fuentes de las cifras: `models/metricas_modelos.json`, `models/clusters_resumen.
 - Cadena privada simulada con SHA-256 y PoW de 4 ceros. En la prueba de alteración, 10 de 10 comprobaciones fueron correctas: la modificación de un solo carácter de un documento, la alteración de una predicción y la alteración de un bloque (incluso con re-minado, por el enlace roto con el siguiente) fueron detectadas.
 
 ### Integración
-- El flujo completo conecta datos, ML, PNL, reporte, hash, cadena y dashboard (ver `06_arquitectura.md`), cumpliendo los nueve objetivos específicos del profesor (tabla en `01_analisis_del_problema.md`).
+- El flujo completo conecta datos, ML, PNL, reporte, hash, cadena y dashboard (ver `06_arquitectura.md`), cumpliendo los nueve objetivos específicos (tabla en `01_analisis_del_problema.md`).
 
 ## 2. Limitaciones
 
@@ -53,7 +53,7 @@ Fuentes de las cifras: `models/metricas_modelos.json`, `models/clusters_resumen.
 ## 4. Trabajo futuro
 
 ### Datos
-- Usar **datos reales** de consumo de CFE o de **medidores inteligentes**, y de clima de estaciones meteorológicas (por ejemplo, de la CONAGUA o el SMN) **(verificar disponibilidad y condiciones de uso)**.
+- Usar **datos reales** de consumo de CFE o de **medidores inteligentes**, y de clima de estaciones meteorológicas (por ejemplo, de la CONAGUA o el SMN).
 - Ampliar el periodo a uno o más años, incluir tarifas, horarios de punta y calendario laboral real.
 - Procesar flujos en tiempo casi real (ingesta por API o MQTT) y almacenar en una base de datos (PostgreSQL o series de tiempo).
 
