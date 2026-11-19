@@ -11,7 +11,7 @@ Código: `src/blockchain/blockchain.py` (cadena, bloques y verificación), `src/
 - **Un solo nodo validador:** no hay consenso distribuido; el propio sistema valida y agrega bloques.
 - **Prueba de trabajo (PoW) didáctica:** cada bloque se "mina" hasta que su hash empiece con 4 ceros hexadecimales. En un solo nodo la PoW no aporta seguridad adicional; se incluye para mostrar el concepto y encarecer la reescritura de la cadena.
 
-Se eligió este tipo (y no una red pública) porque el requisito del profesor no exige una red comercial ni criptomoneda, la información del operador es privada y el objetivo es demostrar la integridad y trazabilidad con una implementación explicable de principio a fin.
+La información del operador es privada y el objetivo es demostrar la integridad y trazabilidad con una implementación explicable de principio a fin.
 
 ## 2. Arquitectura
 
